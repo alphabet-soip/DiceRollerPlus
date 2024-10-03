@@ -1,4 +1,4 @@
-#DiceRollerPlus
-#credits
+# DiceRollerPlus
+# credits
 Eric Pogue
 ChatGPT
