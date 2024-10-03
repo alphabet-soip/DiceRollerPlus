@@ -1,1 +1,4 @@
-# merna-static-website-on-azure-template
+#DiceRollerPlus
+#credits
+Eric Pogue
+ChatGPT
