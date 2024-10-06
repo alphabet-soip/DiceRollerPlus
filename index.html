@@ -25,6 +25,16 @@
             text-align: right;
             background-color: lightgray;
         }
+        .tag {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: #0078d4;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            z-index: 1000;
+        }
     </style>
 </head>
 <body onload="rollDice()">
@@ -40,8 +50,10 @@
 		<p>Press enter to roll dice.</p>
 		<p>If lost focus, click 'Roll Dice'.</p>
         <p>Environment: Roller Test</p>
-        <p>Version: 1.01</p>
+        <p>Version: 1.02</p>
     </footer>
+
+    <div id="tag" class="tag"></div>
 
     <script>
         function rollDice() {
@@ -51,6 +63,9 @@
 
             document.getElementById('rollButton').focus();
         }
+
+        const tagName = "Test Azure Static";
+        document.getElementById('tag').innerText = tagName;
     </script>
 </body>
 </html>
